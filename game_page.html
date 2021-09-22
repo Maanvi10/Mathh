@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Math Time</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+    <h3 id="player1"><span id ="score1"></span>
+    </h3>
+
+    <h3 id="player2"><span id ="score2"></span>
+    </h3>
+
+<div class="container">
+    <center>
+        <h2 style="color: white;">Math Time!</h2>
+       <h3 id="qturn"></h3>
+       <h3 id="aturn"></h3>
+        <div id="output" class="col-lg-6"></div>
+        <br>
+        <br>
+        <label>Number1</label>
+        <input type="text" id="1Number" class="form-control" placeholder="No.">
+        <br>
+		<label>Number2</label>
+        <input type="text" id="2Number" class="form-control" placeholder="No.">
+        <br>
+        <button onclick="send()" class="btn btn-info" style="width:30%">Send</button>
+    </center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
